@@ -3,7 +3,7 @@
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 /**
- *
+ *  loops through array using for loop and console logs each value in array
  * @param {*} arr
  */
 function forLoop(arr) {
@@ -13,7 +13,7 @@ function forLoop(arr) {
 }
 
 /**
- *
+ *  loops through array using while loop and console logs each value in array
  * @param {*} arr
  */
 function whileLoop(arr) {
@@ -39,7 +39,8 @@ function map(arr, callback) {
 }
 
 /**
- *
+ *  takes in array and callback function that returns true/false
+ *  returns new array with only values from original array that result in true via callback
  * @param {*} arr
  * @param {*} callback
  * @return {*} newArr
@@ -53,7 +54,7 @@ function filter(arr, callback) {
 }
 
 /**
- *
+ *  Calls the passed in callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
  * @param {*} arr
  * @param {*} callback
  * @param {*} initialCondition
