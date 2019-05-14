@@ -7,7 +7,8 @@ const stuff = {
   cars: ['Toyota','Mazda']
 }
 
-const state = {people, stuff};
+// creates copy and not reference of the peoples/stuff objects
+const state = { people: [...people], stuff: {...stuff} };
 
 // --------------------------------
 
